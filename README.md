@@ -20,6 +20,6 @@ The file `enigma.asm` can be used directly to simulate the Enigma-Z on the compu
 * The number to be encoded is put in the port `13h`.
 * The program outputs the encoded number at the port `14h`.
 
-But, the code in `Enigma_Dyna85.pdf` has modifications with specific built-in sub-routines from [Dyna-85 Kit](https://www.dynalogindia.com/shop/dyna-85/) and can be assmbled using that and uses an ENIGMA Machine like approach with almost 0.5 seconds (due to 3 MHz clock speed of Dyna85) popping up of the encoded message and then moving on for next input. The same settings can be used to decode the message again.
+But, the code in `Enigma_Dyna85.pdf` has modifications with specific built-in sub-routines from [Dyna-85 Kit](https://www.dynalogindia.com/shop/dyna-85/) and can be assembled using that. It uses an ENIGMA Machine like approach with almost 0.5 seconds (due to 3 MHz clock speed of Dyna85) popping up of the encoded message and then moving on for next input. The same settings can be used to decode the message again.
 
 **NOTE:** The program is not optimised to discard `0Ah` to `0Fh` input and thus should be carefully used.
