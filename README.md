@@ -4,7 +4,7 @@ This simulator was part of a mini-project for Electronics-II Laboratory. The pro
 While most people were busy making counters and fibonacci series generators, I wished to build something different. The idea came about from a Numberphile video based on [ENIGMA Machines](https://youtu.be/G2_Q9FoD-oQ, "Enigma Machine - Numberphile"). I searched around for a numbers-only version of the machine and found [this article on ENIGMA-Z](https://www.cryptomuseum.com/crypto/enigma/z/index.htm, "Numbers-only ENIGMA Z30").
 
 ## ENIGMA-Z
----
+
 The simulator implements the 3-rotor (**German:** Walzen) and 1-reflector (**German:** Umkehrwalze or UKW) mechanism with the following scramble:
 
 |  Rotor    |    Scramble    |
