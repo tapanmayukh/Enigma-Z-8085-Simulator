@@ -14,7 +14,7 @@ The simulator implements the 3-rotor (**German:** Walzen) and 1-reflector (**Ger
 |   III     |    7120538649  |
 |   UKW     |    7594318062  |
 
-The file `enigma.asm` can be used directly to simulate the Enigma-Z on the using [GNU8085Sim](https://gnusim8085.github.io/).
+The file `enigma.asm` can be used directly to simulate the Enigma-Z on the computer using [GNU8085Sim](https://gnusim8085.github.io/).
 * The rotor order is fixed as I, II and III.
 * The starting ring settings (**German:** Ringstellung) need to inserted in ports `10h, 11h and 12h`.
 * The number to be encoded is put in the port `13h`.
